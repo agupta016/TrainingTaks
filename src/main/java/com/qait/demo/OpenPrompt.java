@@ -1,4 +1,4 @@
-package com.qait.test;
+package com.qait.demo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
