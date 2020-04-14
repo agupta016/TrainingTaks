@@ -1,6 +1,5 @@
 package com.qait.demo;
 
-import java.util.SortedSet;
 
 public class StringAnagram {
 

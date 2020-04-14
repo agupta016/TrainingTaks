@@ -28,9 +28,7 @@ public class JsonPathdemo {
 //				System.out.println(ls);
 //			}
 			String str =  (String) obj.get("type");
-			System.out.println(str);
-
-		
+			System.out.println(str);		
 		 
 		 
 	}

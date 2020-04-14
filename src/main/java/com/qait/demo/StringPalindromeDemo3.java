@@ -27,7 +27,7 @@ public class StringPalindromeDemo3  {
 	
 	public static int findPalindrome(String str){
 		
-		int start=0, end = str.length();
+		int end = str.length();
 		int len=0,n=0;
 		for(int i=0;i<str.length()-1;i++){
 			String s1 = str.substring(i,end);
