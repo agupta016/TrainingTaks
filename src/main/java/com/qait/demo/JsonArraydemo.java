@@ -1,6 +1,5 @@
 package com.qait.demo;
 
-import org.json.JSONTokener;
 import org.json.simple.JSONObject;
 import net.minidev.json.JSONArray;
 
@@ -28,14 +27,14 @@ public class JsonArraydemo {
 		JSONArray array = new JSONArray();
 		  array.add(obj1);
 	      array.add(object2);
-//	      array.add("city: Hyderabad");
-//	      array.add("Area: Madapur");
-//	      array.add("State: Telangana");
 	      
 	     System.out.println(array);
 	     
 	     JSONObject object = new JSONObject();
-	     object.put("detials", array);
+	     object.put("details", array);
+	     System.out.println(object);
+	     String s  =  (String) object.remove("detials[0].hello.ID");
+	    System.out.println(s);
 	     System.out.println(object);
 	      
 	
