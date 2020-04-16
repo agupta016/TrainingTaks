@@ -15,18 +15,7 @@ public class GradesAverage {
 	Scanner sr = new Scanner(System.in);
 	
 	
-	public void enterStudentGrade() {
-//		System.out.println("Enter no. of students. if wnat to exit trype \"exit\"");
-//		
-//		while((sr.nextLine()).equalsIgnoreCase("exit"))
-//		{
-//			System.out.println(sr.next());
-//			
-//		}	
-//		System.out.println("exited");
 		
-	}
-	
 	public void readNumStudents() throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		numStudents = Integer.parseInt(br.readLine());
@@ -39,7 +28,7 @@ public class GradesAverage {
 		}
 	
 		br.close();
-		System.out.println(grades);
+		
 	}
 	
 	
@@ -82,7 +71,6 @@ public class GradesAverage {
 		// TODO Auto-generated method stub
 		
 		GradesAverage ga = new GradesAverage();
-		ga.enterStudentGrade();
 		ga.readNumStudents();
 		ga.checkGrades();
 		ga.avgGrade();
