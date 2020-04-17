@@ -1,5 +1,9 @@
 package com.qait.assignment;
 
+//Write a GradesStatistics program, which reads in n grades (of int between 0 and 100, inclusive) and displays
+//the average, minimum, maximum, and standard deviation. Your program shall check for the valid input. 
+//You should keep the grades in an int[] and use a method for each of the computations. 
+
 import java.io.IOException;
 import java.util.Scanner;
 

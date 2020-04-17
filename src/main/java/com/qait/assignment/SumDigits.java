@@ -1,5 +1,7 @@
 package com.qait.assignment;
 
+//Write a SumDigits program to sum up the individual digits of a positive integer, given in the command line. 
+
 public class SumDigits {
 
 	public static void main(String[] num) {

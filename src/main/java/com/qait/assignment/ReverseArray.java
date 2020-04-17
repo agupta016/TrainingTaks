@@ -7,6 +7,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 
+//For example, if the input array is {12, 56, 34, 79, 26}, the reversal is {26, 79, 34, 56, 12}. 
+//You MUST NOT use another array in your method (but you need a temporary variable to do the swap).
+//Take input from in.txt file to create dynamic array.
+
+
 public class ReverseArray {
 	
 	File file;

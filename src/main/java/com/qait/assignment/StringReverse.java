@@ -1,7 +1,9 @@
 package com.qait.assignment;
 
-public class StringReverse {
+//Write a String reverse program that takes array of String as input from the command-line arguments and 
+//reverse the String at each index.
 
+public class StringReverse {
 
 	public static void main(String[] strArray) {
 		
