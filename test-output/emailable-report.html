@@ -9,17 +9,23 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">76</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">444</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qait.demo.JsonPathdemo</td><td><a href="#m0">testJsonPath</a></td><td rowspan="1">1586859208140</td><td rowspan="1">19</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qait.test.Test1</td><td><a href="#m0">LoginPage</a></td><td rowspan="1">1587977901528</td><td rowspan="1">393</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.qait.demo.JsonPathdemo#testJsonPath</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: Json Path files/jsonfile.json (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
-	at java.io.FileReader.&lt;init&gt;(FileReader.java:58)
-	at com.qait.demo.JsonPathdemo.testJsonPath(JsonPathdemo.java:20)
+<h2>Default test</h2><h3 id="m0">com.qait.test.Test1#LoginPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchMethodError: com.google.common.collect.ImmutableList.toImmutableList()Ljava/util/stream/Collector;
+	at org.openqa.selenium.chrome.ChromeOptions.asMap(ChromeOptions.java:292)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.qait.test.Test1.LoginPage(Test1.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

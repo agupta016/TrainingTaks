@@ -2,24 +2,30 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76" started-at="2020-04-14T15:43:28 IST" finished-at="2020-04-14T15:43:28 IST">
+  <suite name="Default suite" duration-ms="444" started-at="2020-04-27T14:28:21 IST" finished-at="2020-04-27T14:28:21 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76" started-at="2020-04-14T15:43:28 IST" finished-at="2020-04-14T15:43:28 IST">
-      <class name="com.qait.demo.JsonPathdemo">
-        <test-method status="FAIL" signature="testJsonPath()[pri:0, instance:com.qait.demo.JsonPathdemo@3b084709]" name="testJsonPath" duration-ms="19" started-at="2020-04-14T15:43:28 IST" finished-at="2020-04-14T15:43:28 IST">
-          <exception class="java.io.FileNotFoundException">
+    <test name="Default test" duration-ms="444" started-at="2020-04-27T14:28:21 IST" finished-at="2020-04-27T14:28:21 IST">
+      <class name="com.qait.test.Test1">
+        <test-method status="FAIL" signature="LoginPage()[pri:0, instance:com.qait.test.Test1@32a068d1]" name="LoginPage" duration-ms="393" started-at="2020-04-27T14:28:21 IST" finished-at="2020-04-27T14:28:21 IST">
+          <exception class="java.lang.NoSuchMethodError">
             <message>
-              <![CDATA[Json Path files/jsonfile.json (No such file or directory)]]>
+              <![CDATA[com.google.common.collect.ImmutableList.toImmutableList()Ljava/util/stream/Collector;]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: Json Path files/jsonfile.json (No such file or directory)
-at java.io.FileInputStream.open0(Native Method)
-at java.io.FileInputStream.open(FileInputStream.java:195)
-at java.io.FileInputStream.<init>(FileInputStream.java:138)
-at java.io.FileInputStream.<init>(FileInputStream.java:93)
-at java.io.FileReader.<init>(FileReader.java:58)
-at com.qait.demo.JsonPathdemo.testJsonPath(JsonPathdemo.java:20)
+              <![CDATA[java.lang.NoSuchMethodError: com.google.common.collect.ImmutableList.toImmutableList()Ljava/util/stream/Collector;
+at org.openqa.selenium.chrome.ChromeOptions.asMap(ChromeOptions.java:292)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:94)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.qait.test.Test1.LoginPage(Test1.java:16)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -50,11 +56,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+          </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testJsonPath -->
-      </class> <!-- com.qait.demo.JsonPathdemo -->
+        </test-method> <!-- LoginPage -->
+      </class> <!-- com.qait.test.Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
