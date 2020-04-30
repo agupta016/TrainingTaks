@@ -55,7 +55,7 @@ public class TextFile {
 	
 	public static void main(String[] args) throws IOException {
 		
-		PropertyFile pf = new PropertyFile();
+		TextFile pf = new TextFile();
 		pf.createFile();
 		pf.readData();
 		pf.updateData();

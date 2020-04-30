@@ -16,7 +16,7 @@ public class JsonPathdemo {
 		
 	    	JSONParser jsonparser = new JSONParser();	
 	    	
-			JSONObject obj = (JSONObject)(jsonparser.parse(new FileReader("Json Path files/jsonfile.json")));
+			JSONObject obj = (JSONObject)(jsonparser.parse(new FileReader("SampleFiles/file.json")));
 			JSONObject list = (JSONObject) obj.get("properties");
 			JSONObject list2 = (JSONObject) ((JSONObject)list.get("object")).get("properties");
 			System.out.println(list2.get("a"));

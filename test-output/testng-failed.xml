@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qait.test.Test1">
+      <class name="com.qait.demo.JsonPathdemo">
         <methods>
-          <include name="LoginPage"/>
+          <include name="testJsonPath"/>
         </methods>
-      </class> <!-- com.qait.test.Test1 -->
+      </class> <!-- com.qait.demo.JsonPathdemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
