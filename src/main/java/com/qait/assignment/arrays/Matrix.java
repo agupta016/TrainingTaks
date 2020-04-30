@@ -1,4 +1,4 @@
-package com.qait.assignment;
+package com.qait.assignment.arrays;
 
 //Similar to Math class, write a Matrix library that supports matrix operations (such as addition, subtraction, 
 //multiplication) via 2D arrays. The operations shall support both doubles and int. Also write a test class to exercise

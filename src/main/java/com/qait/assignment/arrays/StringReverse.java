@@ -1,4 +1,4 @@
-package com.qait.assignment;
+package com.qait.assignment.arrays;
 
 //Write a String reverse program that takes array of String as input from the command-line arguments and 
 //reverse the String at each index.

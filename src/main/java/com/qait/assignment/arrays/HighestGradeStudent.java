@@ -1,4 +1,4 @@
-package com.qait.assignment;
+package com.qait.assignment.arrays;
 
 import java.io.BufferedReader;
 import java.io.File;

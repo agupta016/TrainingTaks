@@ -1,4 +1,4 @@
-package com.qait.assignment;
+package com.qait.assignment.arrays;
 
 //Write a SumDigits program to sum up the individual digits of a positive integer, given in the command line. 
 

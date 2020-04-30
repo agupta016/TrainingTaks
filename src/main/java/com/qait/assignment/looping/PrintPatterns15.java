@@ -18,9 +18,7 @@ public class PrintPatterns15 {
 		}
 		return factorial;
 	    }
-	    static int ncr(int n,int r) {
-		return fact(n) / ( fact(n-r) * fact(r) );
-	    }
+	   
 	    public static void main(String args[]){
 		int i, j;
         int n =8;
@@ -32,7 +30,7 @@ public class PrintPatterns15 {
 				System.out.print(" ");
 			}
 			for(j = 0; j <= i; j++){
-				System.out.print(" "+ncr(i, j));
+				System.out.print(" "+fact(i) / ( fact(i-j) * fact(j) ));
 			}
 			System.out.println();
 	 	}

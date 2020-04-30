@@ -1,4 +1,4 @@
-package com.qait.assignment;
+package com.qait.assignment.arrays;
 
 //Write a GradesStatistics program, which reads in n grades (of int between 0 and 100, inclusive) and displays
 //the average, minimum, maximum, and standard deviation. Your program shall check for the valid input. 

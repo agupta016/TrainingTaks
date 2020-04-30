@@ -1,4 +1,4 @@
-package com.qait.assignment;
+package com.qait.assignment.arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
